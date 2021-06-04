@@ -71,6 +71,23 @@ p {
     margin: 0 auto;
 }
 
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    margin-top:20px;
+    margin-bottom:30px;
+    align-items: flex-end;
+}
+
+.navigation a{
+    text-decoration: none;
+    color:black;
+}
+
+.headImg{
+    margin-bottom: 30px;;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -111,6 +128,12 @@ p {
     align-items: center;
     justify-content: center;
 }
+/* .boxes .box {
+    background-color: teal;
+}
+.boxes.box{
+    background-color: gold;
+} */
 
 .bottom-content {
     display: flex;
@@ -143,4 +166,67 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.container.about-page{
+    padding:20px;
+    margin-bottom: 30px;
+    border-bottom: 1px dashed black;
+    margin-left:20px;
+}
+
+.middlepics{
+    text-align: left;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.middlepics h2{
+    margin-top:20px;
+}
+
+.firstpic{
+    width:45%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+    padding:20px;
+    margin-right:10px;
+}
+
+.secondpic{
+    width:45%;
+    border-bottom: 1px dashed black; 
+    margin-bottom: 30px;
+    padding:20px;
+    margin-left:10px;
+}
+.thirdpic{
+    margin-right:10px;
+    width:45%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+    padding:20px;
+}
+.fourthpic{
+    width:45%;
+    border-bottom: 1px dashed black; 
+    margin-bottom: 30px;
+    padding:20px;
+    margin-left:10px;
+}
+button{
+    width:100px;
+    height:30px;
+    margin-top:20px;
+    border-radius:10px;
+    background-color: white;
+    color:black;
+    border:2px solid black;
+    
+}
+
+.bottomcontext{
+    margin-bottom:30px;
+    margin-left: 15px;
 }
